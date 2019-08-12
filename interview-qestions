@@ -1,0 +1,19 @@
+When developing web applications, what libraries/frameworks do you use most frequently and why?
+- Currently I don't do much development at home, since I usually need a mental break from the day to day but I do prefer using Vue over React/Angular (not just because I know it better). I find the template use, two way data bindings and the computed functions a lot easier to deal with then the 'react way' of doing things.
+
+How do you manage dependencies in your projects?
+- Dependencies should be carefully considered. I usually check for something that is being actively worked on, or at least has been active in the last few months. I will also check their way of using PRs. Do they vet what's being added or their own dependencies? Ideally, if possible, I will try and avoid using multiple depencey layers.
+
+How do you test your applications? Is there anything tricky to with testing web applications?
+- Testing I usually do visually/manually although I am trying to be better about writing unit tests. Web Apps can be tricky for a variety of reasons, including various browser testing (Firefox vs Safari vs EI), device testing (millions of iPhones, Andriods, etc.), as well as breakpoint testing. There is also a variety of things that could go wrong regarding internet speeds/connections, service providers and third party apps (AWS)
+
+
+What are some possible options for improving scrolling performance on a website?
+- There's a few things you can do for scrolling performace. One is just overall performance, including image optimizations (file size, srcsetting). Lazy loading can also be implimented in such a way that improves overall performance, as well as appearance with a nice fade in effect.  
+
+Could you describe, step by step, what happens from the moment a user types out a website URL in their browser to the moment the webpage finishes loading on the screen.
+- Entering url in the browser.
+- Request is made (hopefully through https) to the server through the website provider found through DNS settings.
+- Website Provider sends resources back to the browser.
+- Browser builds the website using HTML and filling in the resources as required. It may need to do some calculations based off the HTML/CSS received.
+- Rendering

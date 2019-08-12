@@ -1,0 +1,6 @@
+@import '~antd/dist/antd.css';
+
+.pagination-center {
+  text-align: center;
+  margin-top: 25px;
+}
